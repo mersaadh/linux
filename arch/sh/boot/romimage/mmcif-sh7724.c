@@ -13,12 +13,25 @@
 
 #define MMCIF_BASE      (void __iomem *)0xa4ca0000
 
+/* MSTPCR2 – Module Stop Control Register 2 */
 #define MSTPCR2		0xa4150038
+
+/* PTWCR – Port Write Control Register */
 #define PTWCR		0xa4050146
+
+/* PTXCR – Port Transfer Control Register */
 #define PTXCR		0xa4050148
+
+/* PSELA – Port Select Register A */
 #define PSELA		0xa405014e
+
+/* PSELE – Port Select Register E */
 #define PSELE		0xa4050156
+
+/* HIZCRC – High Impedance Control Register */
 #define HIZCRC		0xa405015c
+
+/* DRVCRA – Drive Control Register A */
 #define DRVCRA		0xa405018a
 
 enum {
